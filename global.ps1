@@ -20,6 +20,7 @@ function Get-Link{
     Start-Process "https://genshin-wishes.com/settings"
 }
 
+Write-Host "Asterium"
 
 $globalPath  = [System.Environment]::ExpandEnvironmentVariables("%userprofile%\AppData\LocalLow\miHoYo\Genshin Impact\output_log.txt");
 $chinaPath = [System.Environment]::ExpandEnvironmentVariables("%userprofile%\AppData\LocalLow\miHoYo\$([char]0x539f)$([char]0x795e)\output_log.txt");
