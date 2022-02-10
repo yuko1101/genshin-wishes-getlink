@@ -20,15 +20,6 @@ function Get-Link{
     Start-Process "https://genshin-wishes.com/settings"
 }
 
-Write-Host "                       _     _                  _     _               " -ForegroundColor Magenta
-Write-Host "                      | |   (_)                (_)   | |              " -ForegroundColor Magenta
-Write-Host "   __ _  ___ _ __  ___| |__  _ _ __   __      ___ ___| |__   ___  ___ " -ForegroundColor Magenta
-Write-Host "  / _  |/ _ \ '_ \/ __| '_ \| | '_ \  \ \ /\ / / / __| '_ \ / _ \/ __|" -ForegroundColor Magenta
-Write-Host " | (_| |  __/ | | \__ \ | | | | | | |  \ V  V /| \__ \ | | |  __/\__ \" -ForegroundColor Magenta
-Write-Host "  \__, |\___|_| |_|___/_| |_|_|_| |_|   \_/\_/ |_|___/_| |_|\___||___/" -ForegroundColor Magenta
-Write-Host "   __/ |                                                              " -ForegroundColor Magenta
-Write-Host "  |___/                                                               " -ForegroundColor Magenta
-Write-Host ""
 
 $globalPath  = [System.Environment]::ExpandEnvironmentVariables("%userprofile%\AppData\LocalLow\miHoYo\Genshin Impact\output_log.txt");
 $chinaPath = [System.Environment]::ExpandEnvironmentVariables("%userprofile%\AppData\LocalLow\miHoYo\$([char]0x539f)$([char]0x795e)\output_log.txt");
