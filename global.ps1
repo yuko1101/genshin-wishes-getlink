@@ -16,8 +16,8 @@ function Get-Link{
     Set-Clipboard -Value $wishHistoryUrl
     Write-Host "LINK COPIED TO YOUR CLIPBOARD" -ForegroundColor Green
     Write-Host "Paste it on the website." -ForegroundColor Cyan
-    Read-Host "PRESS ENTER to open genshin-wishes.com on your browser"
-    Start-Process "https://genshin-wishes.com/settings"
+    Read-Host "PRESS ENTER to open paimon.moe on your browser"
+    Start-Process "https://paimon.moe/wish/import"
 }
 
 Write-Host "Asterium"
